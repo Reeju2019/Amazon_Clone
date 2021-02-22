@@ -16,6 +16,8 @@ function Product() {
           <p>⭐</p>
         </div>
       </div>
+
+      <img src="" alt="" />
     </div>
   );
 }
