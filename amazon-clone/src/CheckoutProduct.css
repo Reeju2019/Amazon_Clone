@@ -4,6 +4,10 @@
   margin-bottom: 20px;
 }
 
+.checkoutProduct__animation {
+  transition-delay: 1s;
+}
+
 .checkoutProduct__info {
   padding-left: 20px;
 }
