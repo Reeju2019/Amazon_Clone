@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import { auth } from "./firebase";
 import "./Login.css";
+import { Helmet } from "react-helmet";
 
 function Login() {
   const history = useHistory();
@@ -34,6 +35,9 @@ function Login() {
 
   return (
     <div className="login">
+      <Helmet>
+        <title>Welcome to Reeju's Amazon Clone</title>
+      </Helmet>
       <Link to="/">
         <img
           className="login__logo"

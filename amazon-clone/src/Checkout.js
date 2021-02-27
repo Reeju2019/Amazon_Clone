@@ -3,6 +3,7 @@ import "./Checkout.css";
 import CheckoutProduct from "./CheckoutProduct";
 import { useStateValue } from "./StateProvider";
 import Subtotal from "./Subtotal";
+import { Helmet } from "react-helmet";
 
 function Checkout() {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -10,6 +11,9 @@ function Checkout() {
   console.log("Checkoutpage", basket);
   return (
     <div className="checkout">
+      <Helmet>
+        <title>RAC | Checkout</title>
+      </Helmet>
       <div className="checkout__left">
         <img
           className="checkout__ad"

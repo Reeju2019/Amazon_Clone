@@ -1,10 +1,14 @@
 import React from "react";
 import Product from "./Product";
 import "./Home.css";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     <div>
+      <Helmet>
+        <title>RAC | Home</title>
+      </Helmet>
       <div className="home">
         <div className="home__container">
           <img
