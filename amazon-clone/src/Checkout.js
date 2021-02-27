@@ -4,7 +4,6 @@ import CheckoutProduct from "./CheckoutProduct";
 import { useStateValue } from "./StateProvider";
 import Subtotal from "./Subtotal";
 import { Helmet } from "react-helmet";
-import Footer from "./Footer";
 
 function Checkout() {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -34,13 +33,11 @@ function Checkout() {
               rating={item.rating}
             />
           ))}
-          <Footer />
         </div>
       </div>
       <div className="checkout__right">
         <Subtotal />
       </div>
-      <div className="checkout__footer"></div>
     </div>
   );
 }
