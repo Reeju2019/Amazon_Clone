@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Product from "./Product";
 import "./Home.css";
 import { Helmet } from "react-helmet";
-import Footer from "./Footer";
 
 function Home() {
   const [isVisible, setIsVisible] = useState(false);

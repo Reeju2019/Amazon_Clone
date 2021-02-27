@@ -4,7 +4,6 @@
 
 .footer {
   height: 200px;
-  align-items: center;
   background-color: #232f3e;
   color: white;
   bottom: 0;
@@ -13,8 +12,7 @@
 }
 
 .footer__row {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 130px;
   width: 100%;
 }
 
