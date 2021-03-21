@@ -8,7 +8,6 @@ import { Helmet } from "react-helmet";
 function Checkout() {
   const [{ basket, user }, dispatch] = useStateValue();
 
-  console.log("Checkoutpage", basket);
   return (
     <div className="checkout">
       <Helmet>
